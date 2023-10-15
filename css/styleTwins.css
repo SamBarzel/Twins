@@ -1,0 +1,149 @@
+/* Estilos Twins*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #8b4513;
+    background-color: #ff1493; }
+
+.nav-link {
+        color: #8b4513;
+        
+}
+    .boxed-page {
+        position: relative;
+        border-color: #ededed;
+        background-color:  #f3bbd8;}
+ /*=====  TESTIMONY  ======*/
+        #gtco-testimonial {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            color: #000000; }
+          
+          .testi-content {
+            text-align: center; }
+            .testi-content .testi-text {
+              font-style: italic;
+              font-weight: 300;
+              line-height: 1.6;
+              padding: 30px 60px;
+              font-size: 32px; }
+            .testi-content .testi-author {
+              font-weight: 500; }
+            .testi-content .testi-desc span {
+              color: #f34949;
+              font-weight: bold; }
+            .testi-content .owl-dots {
+              position: absolute;
+              text-align: center;
+              margin: 0 auto;
+              display: block;
+              left: 0;
+              right: 0;
+              bottom: -50px; }
+            .testi-content .owl-nav {
+              display: none; }
+          
+          .owl-dot {
+            position: relative;
+            display: inline-block;
+            margin: 0 5px;
+            width: 12px;
+            height: 12px;
+            cursor: pointer; }
+            .owl-dot span {
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              outline: none;
+              border-radius: 50%;
+              background-color: #fff;
+              background-color: rgba(255, 255, 255, 0.3);
+              text-indent: -999em;
+              cursor: pointer;
+              position: absolute;
+              box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+              -webkit-transition: box-shadow 0.3s ease, background-color 0.3s ease;
+              transition: box-shadow 0.3s ease, background-color 0.3s ease; }
+            .owl-dot.active > span {
+              background-color: transparent;
+              box-shadow: 0 0 0 2px white; }
+          
+          /*=====  End of TESTIMONY  ======*/
+/*menu*/
+.menu-img {
+  padding: auto;
+  overflow: hidden;
+  height: 80px;
+  width: 80px; }
+  .menu-img img {
+    transition: all .5s ease;
+    height: 150%;
+    object-fit: cover; }  
+/*=====  End of Special Dishes  ======*/
+/*==================================
+=            RESPONSIVE            =
+==================================*/
+.only-mobile {
+  display: none !important; }
+
+@media (max-width: 992px) {
+  .hero {
+    height: 100%; }
+  .boxed-page {
+    padding-top: 100px; }
+  #navbar-header {
+    position: fixed;
+    top: 0;
+    height: auto;
+    width: 100%;
+    background-color: #ff91af;
+    z-index: 11;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    #navbar-header .dropdown-menu {
+      box-shadow: none !important; }
+    #navbar-header .navbar-collapse {
+      margin-top: 15px;
+      background: #f3bbd8 !important; }
+  .only-mobile {
+    display: block !important; }
+  .only-desktop {
+    display: none !important; }
+  .menu-wrap {
+    margin-bottom: 30px; }
+  .footer-widget {
+    margin-bottom: 30px; }
+  .hero-left {
+    padding-top: 30px;
+    padding-bottom: 30px; } }
+
+@media (max-width: 767px) {
+  .hero-left,
+  .hero-carousel .owl-item img {
+    height: 600px; }
+  .thumb-menu img {
+    height: 90px; }
+  .img-2 {
+    height: 500px; } }
+
+/*=====  End of RESPONSIVE  ======*/
+/*===== Otros Ajustes Inicio =====*/
+.imglog{
+  max-width:100%;height:auto
+}
+.footer-twins {
+  height: 50px; }
+.cuenta{
+  background-color: #9A616D;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
